@@ -1,5 +1,5 @@
 module Kabuki
-  class Worker
+  class Bundle
   end
 end
 

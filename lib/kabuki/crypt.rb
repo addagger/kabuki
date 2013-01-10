@@ -27,10 +27,10 @@ end
 
 class String
   def kabuki_encrypt
-    Crypt.new(self).encode
+    Kabuki::Crypt.new(self).encode
   end
   
   def kabuki_decrypt
-    Crypt.new(self).decode
+    Kabuki::Crypt.new(self).decode
   end
 end

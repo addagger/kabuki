@@ -6,7 +6,7 @@ module Kabuki
       require 'kabuki/dump'
       require 'kabuki/zip'
       require 'kabuki/crypt'
-      require 'kabuki/worker'
+      require 'kabuki/bundle'
       ActiveSupport.on_load :active_record do
       end
       ActiveSupport.on_load :action_view do

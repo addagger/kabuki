@@ -23,10 +23,10 @@ end
 
 class String
   def kabuki_zip
-    Zip.new(self).compress
+    Kabuki::Zip.new(self).compress
   end
   
   def kabuki_unzip
-    Zip.new(self).decompress
+    Kabuki::Zip.new(self).decompress
   end
 end

@@ -20,12 +20,12 @@ end
 
 class Object
   def kabuki_dump
-    Dump.encode(self)
+    Kabuki::Dump.encode(self)
   end
 end
 
 class String
   def kabuki_load
-    Dump.decode(self)
+    Kabuki::Dump.decode(self)
   end
 end
