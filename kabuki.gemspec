@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Valery Kvon"]
   gem.email         = ["addagger@gmail.com"]
   gem.homepage      = %q{http://vkvon.ru/projects/kabuki}
-  gem.description   = %q{Customized dump solution for URL strings}
+  gem.description   = %q{Customized dump solution for URL purposes}
   gem.summary       = %q{Dump and encrypt arrays, strings, symbols, hashes and other Ruby objects}
 
   gem.rubyforge_project = "kabuki"
