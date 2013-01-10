@@ -4,7 +4,7 @@ module Kabuki
 end
 
 class Object
-  def kabuki
+  def kabuki!
     Base64.strict_encode64(self.kabuki_dump.kabuki_zip.kabuki_encrypt)
   end
 end
